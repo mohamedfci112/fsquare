@@ -1,0 +1,490 @@
+body{
+
+    width: 100%;
+
+    background-color:#141414;
+    overflow-x: hidden;
+}
+/*------------------------------------Home page style-----------------------------------------*/
+.container{
+
+    width: 95%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#191919;
+    margin: auto;
+
+
+}
+
+.header .sereach{
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+
+}
+.searchInput{
+  height: 40px;
+   border-radius: 20px ;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    margin-bottom: 70px;
+    size:40px;
+
+}
+.searchbtn{
+  width: 95px;
+  height: 39px;
+  border-radius: 20px;
+  margin-right: 5px;
+
+}
+
+
+.header .logo img{
+    margin-left: 10px;
+    float: left;
+    margin-top: 50px;
+    width:100px;
+     height:100px;
+     margin-top: 10px;
+
+}
+.header .logo p{
+    direction: ltr;
+    float: left;
+
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Helvetica;
+    margin-right: 50px;
+    color: #D628B6;
+ /* border: 5px groove #FFFFFF;*/
+    width: 250px;
+    border-width:10px;
+    border-radius: 20px;
+/*  background-color: black;*/
+    font-style: italic;
+
+}
+.icon .left ul img
+{
+    border-radius: 20px;
+    width:40px;
+    height:40px;
+}
+.icon .left ul li{
+
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+
+    float: right;
+
+}
+.icon .left ul li img:hover
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    border-radius: 15px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+
+}
+
+
+.nav{
+
+    clear: both;
+    padding-top: 5px;
+
+}
+.nav .left{
+    width: 100%;
+    /*float: left;*/
+    margin-bottom: 50px;
+
+
+
+}
+
+.nav .right{
+
+
+}
+.nav .right .left ul li
+{
+    display: inline-block;
+    list-style:none;
+    list-style-position: outside;
+    width: 164px;
+    border: groove black;
+    background: white;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 20px;
+
+}
+.nav .right .left ul li:hover
+{
+    background-color: #18152e;
+    color: aliceblue;
+
+    border: groove rgb(235, 240, 243);
+    -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-360deg);
+
+}
+.nav .right .left ul li a{
+
+  color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.nav .right .left ul li a:hover{
+
+  color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.content{
+    clear: both;
+
+}
+.content .spacial
+{
+ position: relative;
+    width: 100%;
+}
+.content .spacial h1{
+  border-bottom: 2px groove white;
+  font-size: 30px;
+  color:#FFFFFF;
+  text-align: center;
+
+  width: 300px;
+  border-radius: 10px;
+  font-family: cursive;
+}
+.content .spacial:after
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: top left;
+    transform: skewY(-0.80deg);
+}
+.content .spacial ul li{
+    display: inline;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+
+}
+.content .spacial ul li img{
+    border-radius: 5px;
+    border: 10px solid #031D28;
+    width: 15%;
+    height: 300px;
+    margin-right: 40px;
+    padding: 7px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+
+
+}
+.content .spacial ul li img:hover
+{
+    width: 17%;
+    height: 300px;
+    border: 10px solid #24F400;
+    -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+    border-radius: 15%;
+  /* -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); */
+
+}
+.online
+{
+    background-color: rgb(6, 12, 26);
+    margin-bottom: 10px;
+
+}
+.online ul li
+{
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-bottom: -10px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.online ul li img{
+  border-radius: 20px;
+}
+
+.footer
+{
+    width: 95%;
+    background-color: #141414;
+    text-align: center;
+    margin: auto;
+    padding-top:  5px;
+    color: white;
+
+}
+.footer .comment
+{
+    float: left;
+    width: 50%
+}
+
+.footer .text
+{
+    clear: both;
+}
+.footer .text h2 span
+{
+    border: 1px groove;background-color: black;border-radius: 5px;
+
+}
+
+.footer .comment h3
+{
+ margin-top: 100px;
+margin-right: 300px;
+color: azure;
+
+font-size: 25px;
+}
+.footer .comment textarea
+{
+
+
+    margin-right: 170px;
+    margin-bottom: 30px;
+    border-radius: 17px;
+
+
+}
+.footer .comment button
+{
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    padding: 5px;
+    float: left;
+    border-radius: 17px;
+
+
+}
+.footer .links
+{
+    float: right;
+    width: 50%;
+}
+.footer .links .icon
+{
+    float: left;
+    margin-top: 45px;
+}
+.footer .links .icon ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: -100px;
+
+}
+
+.footer .links .icon ul li a
+{
+     color: #00FF9D;
+     text-decoration: none;
+
+}
+
+.footer .links .icon ul li img
+{
+  width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+.footer .links .icon ul li img:hover
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.footer .links .frame
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer .links .frame iframe{
+  width:400px;
+   height:400;
+}
+/*------------------------------------------Games page style-------------------------------------------------*/
+
+.headergame
+{
+    height: 600px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-image: url('games/9.jpg');
+    background-size: 100% 100%;
+    border: groove #58E2DC;
+    border-radius: 5px;
+
+}
+.headergame span
+{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: #58E2DC;
+    border: groove;
+    border-radius: 5px;
+    float: right
+}
+
+.headergame .logo img{
+    margin-left: 10px;
+    float: left;
+    margin-top: 50px;
+}
+
+.headergame .logo p{
+
+    direction: ltr;
+    float: left;
+
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Helvetica;
+    margin-right: 50px;
+    color: #D628B6;
+    width: 250px;
+    border-width:10px;
+    border-radius: 20px;
+    font-style: italic;
+
+}
+
+.headergame .sereach
+{
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+
+.searchInput{
+  height: 40px;
+   border-radius: 20px ;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    margin-bottom: 70px;
+
+}
+.searchbtn{
+  width: 95px;
+  height: 39px;
+  border-radius: 20px;
+  margin-right: 5px;
+
+}
+
+
+
+.contentgame{
+    clear: both;
+}
+
+
+
+.contentgame .spacial ul li{
+    display: inline;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+
+}
+.contentgame .spacial ul li img{
+    border-radius: 5px;
+    border: 10px solid #031D28;
+    width: 13%;
+    height: 300px;
+    margin-left : 30px;
+    padding: 7px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+
+
+}
+.contentgame .spacial ul li img:hover
+{
+  width: 17%;
+  height: 300px;
+  border: 10px solid #24F400;
+  -webkit-transform: rotate(-10deg);
+   -moz-transform: rotate(-10deg);
+     -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+  border-radius: 15%;
+  /* -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); */
+
+}
+
